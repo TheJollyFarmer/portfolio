@@ -5,14 +5,27 @@ module.exports = {
   },
   extends: [
     "plugin:vue/vue3-essential",
-    "eslint:recommended",
     "plugin:prettier/recommended",
+    "eslint:recommended",
   ],
   parserOptions: {
     parser: "@babel/eslint-parser",
   },
   rules: {
-    "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
-    "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
+    "no-console": 0,
+    "func-names": ["error", "never"],
+    "no-unused-vars": "off",
+    "vue/html-closing-bracket-spacing": [
+      "error",
+      {
+        selfClosingTag: "never",
+      },
+    ],
+    "vue/html-closing-bracket-newline": [
+      "error",
+      {
+        multiline: "never",
+      },
+    ],
   },
 };

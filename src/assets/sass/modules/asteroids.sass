@@ -1,0 +1,32 @@
+.asteroid-belt,
+.kuiper-belt
+  background: url("~@/assets/images/asteroids.png") repeat
+  background-size: contain
+  position: absolute
+  width: 100%
+  z-index: 0
+
+  .header,
+  p
+    left: 50%
+    margin-top: 1.5em
+    position: absolute
+    transform: translateX(-50%)
+
+  p
+    font-family: B612, serif
+    line-height: 1.5
+    margin-top: 6em
+    width: 40%
+    white-space: pre-line
+
+.asteroid-belt
+  clip-path: polygon(0 0, 12.5% 0.025%, 37.5% 0.05%, 50% 0.075%, 62.5% 0.05%, 87.5% 0.025%, 100% 0, 100% 99.925%, 87.5% 99.95%, 62.5% 99.975%, 50% 100%, 37.5% 99.975%, 12.5% 99.95%, 0% 99.925%)
+  height: 40000px
+  top: 30000px
+
+.kuiper-belt
+  clip-path: polygon(0 0, 12.5% 0.1%, 37.5% 0.2%, 50% 0.3%, 62.5% 0.2%, 87.5% 0.1%, 100% 0, 100% 99.7%, 87.5% 99.8%, 62.5% 99.9%, 50% 100%, 37.5% 99.9%, 12.5% 99.8%, 0% 99.7%)
+  height: 10000px
+  top: 590000px
+
