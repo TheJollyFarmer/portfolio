@@ -1,0 +1,27 @@
+$progress-bar-background-color: $white-dark !default
+$progress-value-background-color: $text !default
+$progress-border-radius: 9999px !default
+
+$progress-indeterminate-duration: 1.5s !default
+
+.progress
+  -moz-appearance: none
+  -webkit-appearance: none
+  border: none
+  border-radius: $progress-border-radius
+  display: block
+  height: 1em
+  overflow: hidden
+  padding: 0
+  width: 100%
+  &:not(:last-child)
+    margin-bottom: $spacing
+  &::-webkit-progress-bar
+    background-color: $progress-bar-background-color
+  &::-webkit-progress-value
+    background-color: $progress-value-background-color
+  &::-moz-progress-bar
+    background-color: $progress-value-background-color
+  &::-ms-fill
+    background-color: $progress-value-background-color
+    border: none

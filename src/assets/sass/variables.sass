@@ -1,49 +1,20 @@
 // Brand
-$black: #0a0a0a
-$blue: #2160c4
-$blue-dark: #2367d2
-$blue-light: #a3d6e4
-$coral: #ef767a
-$coral-light: rgba($coral, 0.8)
-$gold: #947600
-$gold-light: #e4c157
 $grey-dark: #4a4a4a
-$grey-light: #eeeeee99
-$indigo: #1b123d
-$iron: #c1c1c1
-$iron-light: #d6d6d6
-$java: #00adb5
-$java-light: rgba($java, 0.8)
-$purple: #a67db8
-$purple-dark: #724884
-$purple-light: rgba($purple, 0.8)
-$red: #f14668
-$alabaster-dark: #c6c1b9
-$alabaster: #ddd7ce
-$alabaster-light: #e5e1da
+$gold: #bd9e59
 $shark: #1a1e25
-$shark-light: rgba(#222831, 0.5)
-$ship: #393e46
-$ship-dark: #33383f
-$ship-light: #74787e
-$ship-darkest: #2b2f35
-$turquoise: #00947e
-$yellow: #ffdd57
-$white: #eeeeee
-$white-dark: rgba($white, 0.85)
-$white-darker: rgba($white, 0.75)
-$white-darkest: rgba($white, 0.6)
-$wild-sand: #f3f3f3
+$white-dark: #eeeeee
 
 // Colours
-$primary: $java
-$background: $black
-$text: $white
+$primary: $gold
+$background: $shark
+$gradient: linear-gradient(to right, $primary, #2d8da5 15%, #3785ae, #527bb0, #706ea9, #8066a1, #8d5d96, #985588, #9c5281, #9f4e7a, #a24c73, #a4496b)
+$text: $white-dark
 $link: $text
-$hover: $white
+$hover: $primary
 
 // Spacing
 $spacing: 0.75em
+$spacing-largest: 1.25em
 $spacing-large: 1em
 $spacing-small: 0.5em
 $spacing-smallest: 0.25em
@@ -54,10 +25,21 @@ $hover-in: 0.25s ease-in
 $hover-out: 0.2s ease-out
 
 // Shadows
-$shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px
+$shadow: 0px 2px 4px rgba(51, 55, 59, 0.08),0px 1px 10px rgba(51, 55, 59, 0.06)
+$shadow-heavy: 0px 4px 8px rgba(51, 55, 59, 0.08),0px 2px 20px rgba(51, 55, 59, 0.06)
 $nav-shadow: 0px -2px 20px 0px
 $footer-shadow: 0px 2px 20px 0px
+$radius: 5px
 
 // Typography
 $family-sans-serif: "Nunito", sans-serif
 $family-primary: $family-sans-serif
+
+// Responsiveness
+$gap: 32px !default
+$tablet: 769px !default
+$desktop: 960px + (2 * $gap) !default
+$widescreen: 1152px + (2 * $gap) !default
+$widescreen-enabled: true !default
+$fullhd: 1344px + (2 * $gap) !default
+$fullhd-enabled: true !default

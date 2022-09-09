@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Vue / Javascript",
+    "value": 90
+  },
+  {
+    "label": "HTML / CSS",
+    "value": 90
+  },
+  {
+    "label": "Sass",
+    "value": 80
+  },
+  {
+    "label": "Laravel / PHP",
+    "value": 70
+  },
+  {
+    "label": "Python",
+    "value": 60
+  },
+  {
+    "label": "Photoshop / Illustrator",
+    "value": 50
+  }
+]
