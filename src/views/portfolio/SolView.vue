@@ -2,7 +2,8 @@
   <VSection
     heading="sol"
     prev="aphelion"
-    next="tft">
+    next="tft"
+    link="solarjourney.net">
     <VPortfolio
       :model="'sol'"
       :count="5">

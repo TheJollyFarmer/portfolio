@@ -1,5 +1,7 @@
 <template>
-  <VSection heading="tftacticians">
+  <VSection
+    heading="tftacticians"
+    link="tftacticians.com">
     <VPortfolio
       :model="'tft'"
       :count="6">

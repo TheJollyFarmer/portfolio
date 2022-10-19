@@ -1,5 +1,7 @@
 <template>
-  <VSection heading="aphelion">
+  <VSection
+    heading="aphelion"
+    link="aphelionwebdesign.co.uk">
     <VPortfolio
       :model="'aphelion'"
       :count="6">
